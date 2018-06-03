@@ -1,0 +1,302 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 563523 */
+  src: url('https://at.alicdn.com/t/font_563523_9tt66579jbw97ldi.eot');
+  src: url('https://at.alicdn.com/t/font_563523_9tt66579jbw97ldi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_563523_9tt66579jbw97ldi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_563523_9tt66579jbw97ldi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_563523_9tt66579jbw97ldi.svg#iconfont') format('svg');
+}
+#now{
+	width: 100%;
+	height: 13.8rem;
+	background: url('../img/screen.png'),linear-gradient(#3bbdff,#45e2ff);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: bottom center;
+
+}
+
+body{
+	font-size: 12px;
+	background-color: #f5f5f5;
+}
+.now_city{
+ 		font-size: 0.36rem;
+ 		color: white;
+ 		text-align: center;
+ 		line-height: 1.57rem;
+ 		height: 1.57rem;
+ 		position: relative;
+}
+.now_air{
+	width: 2.1rem;
+	height: 1.26rem;
+	background-color: #f1ab62;
+	margin-left: .26rem;
+	margin-top: .05px;
+	border-radius: .2rem;
+	padding-top: .31rem;
+	text-align: center;
+}
+.now_air h1,.now_air h2{
+	font-size: .36rem;
+	color: #fff;
+}
+.now_temp{
+	font-size: .96rem;
+	text-align: center;
+	color: #fff;
+	margin-top: .77rem;
+}
+
+
+.now_weather{
+	font-size: .51rem;
+	color: #fff;
+	text-align: center;
+	margin-top: .9rem;
+	line-height: .51rem;
+}
+.now_weather_feng,.now_weather_fengxiang,.now_weather_fengji{
+	margin-top: .54rem;
+	color: #fff;
+	text-align: center;
+	font-size: .32rem;
+	line-height: .32rem;
+
+}
+.weather_tishiyu{
+	font-size: .32rem;
+	text-align: center;
+	color: #fff;
+
+	margin-top: 1.48rem;
+}
+#future{
+	width: 100%;
+	height: 3.09rem;
+	background-color: #fff;
+	border-bottom: .03rem solid #e4e4e4;
+	
+}
+.address{
+	margin-right: 0.19rem;
+	margin-left: 4.83rem;
+	float: left;
+	font-family: 'iconfont'; 
+	display: block;
+}
+.now_city_name{
+	float: left;
+	display: block;
+}
+.future_box{
+	width: 50%;
+	height: 100%;
+	float: left;
+	/* padding: 0  .58rem; */
+	font-size: .32rem;
+	padding: .72rem .58rem;
+}
+.today{
+	
+}
+.future_top{
+	width: 100%;
+	height: 50%;
+
+	border-right: .03rem solid #e4e4e4;
+}
+.future_date{
+	float: left;
+}
+.future_top p{
+   float: right;
+}
+.today_img,.tomorrow_img{
+	width: 1.44rem;
+	height: 1.44rem;
+	float: right;
+
+}
+.tomorrow_img img,.today_img img{
+	width: .72rem;
+	height: .72rem;
+	float: left;
+	display: block;
+}
+#hours{
+	width: 100%;
+	height: 3.9rem;
+	background-color: #fff;
+	border-top: .03rem solid #e4e4e4;
+	border-bottom: .03rem solid #e4e4e4;
+	margin-top: .3rem;
+	display: flex;
+	overflow-x: scroll;
+
+}
+#hours li{
+	width: 2rem;
+	height: 100%;
+	
+	padding: .7rem 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+	flex-shrink: 0;
+}
+.ye{
+	/* display: none; */
+	width: 100%;
+	height: auto;
+}
+.sousuos{
+	position: absolute;
+	font-size: 0.36rem;
+	color: #fff;
+	top: 5vw;
+	right: 5vh;
+}
+.hours_img{
+	width: 1rem;
+	height: 1rem;
+	padding: 0 .4rem;
+	box-sizing: content-box;
+}
+.hours_time,.hours_temp{
+	font-size: .26rem;
+}
+
+#fulture_week{
+	width: 100%;
+	height: 11.19rem;
+	background-color: #fff;
+	border-top: .03rem solid #e4e4e4;
+	border-bottom: .03rem solid #e4e4e4;
+	margin-top: .3rem;
+	display: flex;
+	overflow-x: scroll;
+
+}
+#fulture_week li{
+	width: 3rem;
+	height: 100%;
+	
+	padding: .96rem 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+	flex-shrink: 0;
+
+}
+.fulture_week_img{
+	width: 1rem;
+	height: 1rem;
+	padding: 0 .4rem;
+	box-sizing: content-box;
+}
+.fulture__week_day,.fulture__week_winter,.fulture__week_hightemp,.fulture__week_lowtemp,.fulture__week_wind,.fulture__week_windji{
+	font-size: .34rem;
+	text-align: center;
+	width: 3rem;
+}
+#hours::-webkit-scrollbar,#fulture_week::-webkit-scrollbar{
+	display: none;
+	/* display: block; */
+}
+#citys{
+	/* 撑开定位 */
+	width: 100vw;
+	/* height: 100vh;
+	overflow: hidden; */
+	/* position: fixed;
+	left: 0;
+	top: 0; */
+	/* z-index: 1; */
+	/* bottom: 0; */
+	margin: auto;
+	background-color: #f6f6f6;
+	/* position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top:0;
+	background-color: red; */
+	display: none;
+
+}
+.fulture__week_img img{
+	width: 1rem;
+	height: 1rem;
+}
+header{
+	width: 100%;
+	height: 1.29rem;
+	background-color: #fff;
+	padding: 0 .29rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.serch{
+	width: 9.03rem;
+	height: .87rem;
+	background-color: #e2e2e2;
+	border-radius: .2rem;
+	border: 0;
+	padding-left: .2rem;
+	outline: none;
+}
+.btn{
+	font-size: .44rem;
+	color: #76a9ff;
+}
+.hotcitys,.hotcitys1{
+	width: 100%;
+	/* overflow-y: scroll; */
+
+	
+	
+}
+.hotcitys_title,.hotcitys_title1{
+	padding-top: .14rem;
+	padding-left: .32rem;
+    width: 100%;
+}
+.hotcitys_title h1,.hotcitys_title1 h1{
+	font-size: .44rem;
+	color: #999999;
+}
+.hotcitys_address,.hotcitys_address1{
+	
+	margin-left: .29rem;
+	margin-top: .2rem;
+	margin-right: 2.74rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: center ;
+
+}
+.hotcitys_address_item,.hotcitys_address_item1{
+	width: 2.34rem;
+	height: .84rem;
+	border: .03rem solid #e0e0e0;
+	border-radius: .2rem;
+	background-color: #ffffff;
+	float: left;
+	overflow: hidden;
+	margin-bottom: .39rem;
+	/* box-sizing: border-box; */
+
+}
+.hotcitys_address_item p,.hotcitys_address_item1 p{
+	font-size: .38rem;
+	color: #000000;
+	text-align: center;
+	line-height: .84rem;
+}

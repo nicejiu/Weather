@@ -1,0 +1,24 @@
+body{
+	font-size: 12px;
+	background-color: #f6f6f6;
+}
+#sousuo{
+	height: 1.29rem;
+	width: 100%;
+	background-color: #ffffff;
+}
+.sousuo_left{
+	margin: .21rem .23rem .21rem .29rem;
+	float: left;
+	
+}
+.sousuo_left_shezhi{
+	width: 9.04rem;
+	height: .85rem;
+	background-color: #e2e2e2;
+	border-radius: .2rem;
+	border: 0;
+}
+.sousuo_left_btn{
+	
+}
